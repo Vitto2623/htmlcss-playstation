@@ -66,6 +66,9 @@ section#jumbotron button{
 /*game-cards*/
 section#game-cards{
     width: 100%;
-    height: 500px;
     background-color: powderblue;
+}
+
+section#game-cards img{
+    border-radius: 18px;
 }
