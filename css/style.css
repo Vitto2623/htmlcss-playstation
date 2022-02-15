@@ -1,0 +1,43 @@
+body{
+    font-family: Arial;
+}
+
+.button{
+    padding: 6px 13px;
+    border-radius: 20px;
+}
+
+/*HEADER*/
+
+/*top-header*/
+section#top-header{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    text-align: right;
+    line-height: 40px;
+    padding-right: 10px;
+}
+
+section#top-header img{
+    height: 15px;
+}
+
+/*bottom-header*/
+section#bottom-header{
+    font-family: Helvetica;
+}
+
+/*nav-right*/
+section#bottom-header .fas{
+    font-size: 11px;
+    margin-left: 3px;
+    color:gray;
+}
+
+/*nav-right*/
+#color-btn-1{
+    background-color: #373b3f;
+    color: white;
+    padding: 6px 13px;
+}
