@@ -40,13 +40,14 @@ section#bottom-header .fas{
 #color-btn-1{
     background-color: #373b3f;
     color: white;
-    padding: 6px 13px;
+    padding: 8px 14px;
 }
 
 /*JUMBOTRON*/
 section#jumbotron{
     width: 100%;
     height: 673px;
+    background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
     padding: 0px;
@@ -81,6 +82,7 @@ section#ps5-products{
 section#jumbotron-2{
     width: 100%;
     height: 953px;
+    background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
     padding: 0px;
