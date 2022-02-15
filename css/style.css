@@ -41,3 +41,31 @@ section#bottom-header .fas{
     color: white;
     padding: 6px 13px;
 }
+
+/*JUMBOTRON*/
+section#jumbotron{
+    background-color: black;
+    width: 100%;
+    height: 673px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    background-image: url(../img/jumbo-bg.png);
+}
+
+section#jumbotron button{
+    color: white;
+    background-color: orangered;
+    padding: 7px 13px;
+    border-radius: 90px;
+    border: none
+}
+
+/*MAIN*/
+
+/*game-cards*/
+section#game-cards{
+    width: 100%;
+    height: 500px;
+    background-color: powderblue;
+}
