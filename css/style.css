@@ -125,3 +125,30 @@ section#ps-now-banner{
     width: 100%;
     background-color: #161c3b;
 }
+
+/*SOCIAL-MEDIA-BANNER*/
+section#social-media-banner{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section .my-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    gap: 2.5%;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+
+section .my-cards-container .social-cards{
+    width: calc(90% / 4);
+}
+
+.social-cards img{
+    width: 100%;
+}
