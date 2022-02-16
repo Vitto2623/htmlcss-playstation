@@ -1,5 +1,6 @@
 body{
     font-family: Arial;
+    overflow-x: hidden;
 }
 
 .button{
@@ -13,11 +14,11 @@ body{
 /*top-header*/
 section#top-header{
     width: 100%;
-    height: 40px;
+    height: 34px;
     background-color: black;
     text-align: right;
-    line-height: 40px;
-    padding-right: 10px;
+    line-height: 34px;
+    padding-right: 4px;
 }
 
 section#top-header img{
@@ -27,6 +28,14 @@ section#top-header img{
 /*bottom-header*/
 section#bottom-header{
     font-family: Helvetica;
+}
+
+#bottom-header a:hover{
+    color: blue
+}
+
+#bottom-header .fas:hover{
+    color: blue;
 }
 
 /*nav-right*/
@@ -70,12 +79,23 @@ section#game-cards{
 }
 
 section#game-cards img{
+    border-radius: 14px;
+}
+
+.border-style:hover{
     border-radius: 18px;
+    border: 2px solid blue;
+    padding: 3px;
+    box-shadow: 3px 5px rgba(0,0,0,0.6);
 }
 
 /*ps5-products*/
 section#ps5-products{
     margin-top: 50px;
+}
+
+.hover:hover{
+    border-bottom: 2px solid blue;
 }
 
 /*JUMBOTRON-2*/
@@ -87,6 +107,17 @@ section#jumbotron-2{
     background-repeat: no-repeat;
     padding: 0px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    position: relative;
+}
+
+#jumbotron-2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
 }
 
 section#jumbotron-2 button{
@@ -151,4 +182,41 @@ section .my-cards-container .social-cards{
 
 .social-cards img{
     width: 100%;
+}
+
+/*FOOTER*/
+footer{
+    background-color: blue;
+    width: 100%;
+}
+
+footer ul{
+    list-style: none;
+    line-height: 30px;
+}
+
+a:hover{
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo-sny-size{
+    height: 63px;
+}
+
+#icon-size{
+    height: 17px;
+    margin-right: 6px;
+}
+
+footer #size{
+    font-size: 0.89em;
+}
+
+#logo-sie-size{
+    height: 48px;
 }
