@@ -7,6 +7,34 @@ body{
     padding: 6px 13px;
     border-radius: 20px;
     border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 /*HEADER*/
@@ -96,6 +124,15 @@ section#ps5-products{
 
 .hover:hover{
     border-bottom: 2px solid blue;
+}
+
+#special-btn-1{
+    color: white;
+    background-color: #0d6efd;
+}
+
+#special-btn-1:hover{
+    background-color: blue;
 }
 
 /*JUMBOTRON-2*/
