@@ -117,7 +117,10 @@ section#game-cards img{
     padding: 3px;
     box-shadow: 0 4px 8px 0 rgba(14, 1, 255, 0.10), 0 6px 20px 0 rgb(0, 8, 251);
     transform: translateY(-20px);
-    transition: 1.1s;
+}
+
+.border-style{
+    transition: 1.5s;
 }
 
 /*ps5-products*/
@@ -177,7 +180,10 @@ section#new-game-section{
 #new-game-section img:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 1);
     transform: translateY(-20px);
-    transition: 1.12s;
+}
+
+#new-game-section img{
+    transition: 1.7s;
 }
 
 /*Ps4-section*/
@@ -195,6 +201,15 @@ section#ps-plus-banner{
 /*sezione-sconti-ps-store*/
 section#discounts-section{
     width: 100%;
+}
+
+section#discounts-section img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    transform: translateY(-20px);
+}
+
+section#discounts-section img{
+    transition: 1.5s;
 }
 
 /*ps-now-banner*/
@@ -233,7 +248,10 @@ section .my-cards-container .social-cards{
 #social-media-banner img:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 6px 20px 0 rgba(0, 0, 0, 0.90);
     transform: translateY(-20px);
-    transition: 1.12s;
+}
+
+#social-media-banner img{
+    transition: 1.5s;
 }
 
 /*FOOTER*/
